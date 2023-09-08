@@ -1,4 +1,35 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
+    min-height: 100px;
+}
+
+.imgicon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.header {
+    background-color: #1f2937;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.headertop {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: auto;
+}
+
+.headertop ul {
+    margin: 0;
+    padding: 15px;
+    gap: 20px;
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    color: #E5E7EB;
 }
