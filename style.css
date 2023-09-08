@@ -77,4 +77,33 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 40px;
+    padding: 40px;
+}
+
+.body1 p {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.info {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.info img {
+    height: 200px;
+    width: 200px;
+    border: 1px solid #3882F6;
+    border-radius: 5%;
+}
+
+.info p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    width: 200px;
 }
