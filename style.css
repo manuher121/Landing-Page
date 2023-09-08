@@ -6,6 +6,11 @@ body {
     min-height: 100px;
 }
 
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
 .imgicon {
     width: 60px;
     height: 60px;
@@ -32,4 +37,44 @@ body {
     list-style: none;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.headerbody {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.img2 {
+    height:auto;
+    width: 500px;
+}
+
+.maintext {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.signup {
+    background: #3882F6;
+    border-radius: 25%;
+    border: royalblue;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+    color: #F9FAF8;
+}
+
+.body1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
