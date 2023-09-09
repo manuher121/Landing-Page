@@ -63,7 +63,7 @@ a {
     color: #E5E7EB;
 }
 
-.signup {
+.signup, .signup2 {
     background: #3882F6;
     border-radius: 25%;
     border: royalblue;
@@ -106,4 +106,73 @@ a {
     font-size: 18px;
     font-weight: 300;
     width: 200px;
+}
+
+.body2 {
+    display: flex;
+    background-color: #E5E7EB;
+    flex-direction: column;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    gap: 2px;
+}
+
+.body2 div {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: lighter;
+}
+
+.body2 p {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.body3 {
+    margin-left:  130px;
+    margin-right: 130px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #3882F6;
+    border-radius: 25px;
+    display: flex;
+    gap: 300px;
+}
+
+.body3left {
+    padding-left: 70px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+
+.body3left div {
+    font-weight: bolder;
+    font-size: 36px;
+    color: #F9FAF8;
+}
+
+.body3left p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.body3right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 80px;
+}
+
+.signup2 {
+    border: 2px solid #F9FAF8;
+    text-align: center;
+    display: inline-block;
+    padding-top:10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-wrap: nowrap;
 }
