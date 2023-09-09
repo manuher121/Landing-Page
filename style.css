@@ -15,6 +15,7 @@ a {
     width: 60px;
     height: 60px;
     border-radius: 50%;
+    flex-shrink: 0;
 }
 
 .header {
@@ -175,4 +176,11 @@ a {
     padding-left: 30px;
     padding-right: 30px;
     text-wrap: nowrap;
+}
+
+.footer {
+    text-align: center;
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #E5E7EB;
 }
